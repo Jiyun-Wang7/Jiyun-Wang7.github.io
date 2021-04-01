@@ -30,7 +30,7 @@ Searching Right: left = mid+1
 
 ```python
 
-def search(self, nums: [int], target: int) -> int:
+def search(nums: [int], target: int) -> int:
     """
     재귀함수 사용하지 않음.
     """
