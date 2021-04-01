@@ -2,7 +2,7 @@
 layout: post
 title: binary search
 date: 2021-03-30 00:14:42 +0900
-categories: algorithm
+tags: [algorithm, data-structure]
 ---
 
 ## 이진 탐색

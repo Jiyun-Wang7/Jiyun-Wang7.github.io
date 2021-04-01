@@ -2,7 +2,7 @@
 layout: post
 title: python pyenv virtualenv 가상환경
 date: 2017-02-09 12:58:00 +0900
-categories: python
+tags: [python, env]
 ---
 
 [pyenv virtualenv]

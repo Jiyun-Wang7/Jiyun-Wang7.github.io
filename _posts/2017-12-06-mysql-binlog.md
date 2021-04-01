@@ -2,8 +2,7 @@
 layout: post
 title: mysql binlog 확인하기
 date: 2017-12-06 09:14:00 +0900
-categories: db
-tags: [mysql]
+tags: [db, mysql]
 ---
 
 ### binlog를 확인하는 목적 : 내가 원하는 시간에 DB에서 어떠한 쿼리가 돌아갔는지 확인 

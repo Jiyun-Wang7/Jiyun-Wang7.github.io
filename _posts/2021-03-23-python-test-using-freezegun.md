@@ -2,7 +2,7 @@
 layout: post
 title: 시간 의존적인 테스트 코드 작성 시 freezegun 활용
 date: 2021-03-23 17:26:02 +0900
-categories: python test
+tags: [python, test]
 ---
 
 ### 찾아보거나 알게된 배경

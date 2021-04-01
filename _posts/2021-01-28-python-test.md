@@ -2,7 +2,7 @@
 layout: post
 title: setUpTestData() vs setUp()
 date: 2021-01-28 17:16:02 +0900
-categories: python test
+tags: [python, test]
 ---
 
 Django에서 테스트 메소드를 수행하기 전에 테스트 데이터를 세팅하는 메소드를 사용하여 테스트 데이터를 만들어야 한다.
