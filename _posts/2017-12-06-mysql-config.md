@@ -1,4 +1,5 @@
 ---
+author: Jiyun Wang
 layout: post
 title: mysql 설정 파일, my.cnf 확인하기
 date: 2017-12-06 09:20:08 +0900

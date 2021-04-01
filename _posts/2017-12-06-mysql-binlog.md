@@ -1,4 +1,5 @@
 ---
+author: Jiyun Wang
 layout: post
 title: mysql binlog 확인하기
 date: 2017-12-06 09:14:00 +0900
