@@ -26,7 +26,7 @@ Searching Left: right = mid-1
 Searching Right: left = mid+1
 ```
 
-### 구
+### 구현
 
 ```python
 
