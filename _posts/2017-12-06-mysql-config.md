@@ -2,10 +2,8 @@
 layout: post
 title: mysql 설정 파일, my.cnf 확인하기
 date: 2017-12-06 09:20:08 +0900
-categories: 
-- db
-tags:
-- mysql
+categories: db
+tags: [mysql]
 ---
 
 개발DB가 죽어버렸다.  config 파일을 확인하고 싶은데?
