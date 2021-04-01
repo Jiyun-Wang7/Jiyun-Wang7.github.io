@@ -29,6 +29,9 @@ url: "https://jiyun-wang7.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  Jiyun-Wang7
 
+disqus: jekyll-tale
+comments: true
+
 # Build settings
 remote_theme: chesterhow/tale
 
@@ -38,9 +41,6 @@ paginate: 10
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
-
-disqus: jekyll-tale
-comments: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
