@@ -32,8 +32,8 @@ github_username:  Jiyun-Wang7
 # Build settings
 remote_theme: chesterhow/tale
 
-permalink:    /:year-:month-:day/:title
-paginate:     10
+permalink: /:year-:month-:day/:title
+paginate: 10
 
 plugins:
   - jekyll-paginate
