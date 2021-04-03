@@ -8,7 +8,7 @@ tags: [algorithm, data-structure]
 
 참고 : [https://leetcode.com/explore/learn/card/fun-with-arrays](https://leetcode.com/explore/learn/card/fun-with-arrays)
 
-릿코드 문제를 풀어보면서 해결해본 것들은 업데이트를 계속 진행하고 있습니다.
+릿코드 문제를 풀어보면서 해결해본 것들은 업데이트를 계속 진행하고 있습니다. (하단의 관련 포스트 참고)
 
 ## 배열
 - 데이터를 나열하고, 각 데이터를 인덱스에 대응하도록 구성한 데이터 구조
