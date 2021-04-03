@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: Array-Deleting items from array
+title: Array - Deleting items from array
 date: 2021-04-02 22:14:42 +0900
 tags: [algorithm, data-structure]
 ---
@@ -96,5 +96,6 @@ def removeElement(self, nums: List[int], val: int) -> int:
 ---
 - [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
 - [Array - Inserting items into an array](https://jiyun-wang7.github.io/2021-04-01/array-inserting-items-into-an-array)
+- [Array - Searching for items in an array](https://jiyun-wang7.github.io/2021-04-04/searching-for-items-in-an-array)
 
 

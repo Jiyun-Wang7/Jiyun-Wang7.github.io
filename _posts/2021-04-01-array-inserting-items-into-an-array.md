@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: Array-Inserting items into an array
+title: Array - Inserting items into an array
 date: 2021-04-01 23:14:42 +0900
 tags: [algorithm, data-structure]
 ---
@@ -124,4 +124,5 @@ def sortedSquares(nums: List[int]) -> List[int]:
 ---
 
 - [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
-- [Array-Deleting items from array](https://jiyun-wang7.github.io/2021-04-02/deleting-items-from-array)
+- [Array - Deleting items from array](https://jiyun-wang7.github.io/2021-04-02/deleting-items-from-array)
+- [Array - Searching for items in an array](https://jiyun-wang7.github.io/2021-04-04/searching-for-items-in-an-array)

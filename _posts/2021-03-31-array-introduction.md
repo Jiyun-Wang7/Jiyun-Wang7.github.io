@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: Array-Introduction
+title: Array - Introduction
 date: 2021-03-31 22:14:42 +0900
 tags: [algorithm, data-structure]
 ---
@@ -48,4 +48,5 @@ Both answers are correct, and both have very different meanings! It's important 
 ---
 - [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
 - [Array - Inserting items into an array](https://jiyun-wang7.github.io/2021-04-01/array-inserting-items-into-an-array)
-- [Array-Deleting items from array](https://jiyun-wang7.github.io/2021-04-02/deleting-items-from-array)
+- [Array - Deleting items from array](https://jiyun-wang7.github.io/2021-04-02/deleting-items-from-array)
+- [Array - Searching for items in an array](https://jiyun-wang7.github.io/2021-04-04/searching-for-items-in-an-array)
