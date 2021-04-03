@@ -120,5 +120,5 @@ def sortedSquares(nums: List[int]) -> List[int]:
 ### 관련 포스트
 ---
 
-
-
+- [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
+- [Array-Deleting items from array](https://jiyun-wang7.github.io/2021-04-02/deleting-items-from-array)

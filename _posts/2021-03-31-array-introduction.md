@@ -44,4 +44,8 @@ Both answers are correct, and both have very different meanings! It's important 
 
 **즉, 배열의 총 공간이 용량(capacity) 현재 배열이 사용된 양이 길이, 갯수(length)**
 
-
+### 관련 포스트
+---
+- [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
+- [Array - Inserting items into an array](https://jiyun-wang7.github.io/2021-04-01/array-inserting-items-into-an-array)
+- [Array-Deleting items from array](https://jiyun-wang7.github.io/2021-04-02/deleting-items-from-array)
