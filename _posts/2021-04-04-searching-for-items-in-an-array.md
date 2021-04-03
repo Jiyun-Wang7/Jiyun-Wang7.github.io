@@ -28,11 +28,14 @@ def linear_search(arr: List[int], target: int) -> bool:
         if item == target:
             return True
 
+    return False
+
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    target = 9
+    target = 10
     is_exists = linear_search(arr=arr, target=target)
+    print(is_exists)
 
 ```
 
