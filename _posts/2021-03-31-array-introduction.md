@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: [Array] Introduction
+title: Array-Introduction
 date: 2021-03-31 22:14:42 +0900
 tags: [algorithm, data-structure]
 ---

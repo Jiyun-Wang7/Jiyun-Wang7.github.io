@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: [Array] deleting items from array
+title: Array-Deleting items from array
 date: 2021-04-02 22:14:42 +0900
 tags: [algorithm, data-structure]
 ---

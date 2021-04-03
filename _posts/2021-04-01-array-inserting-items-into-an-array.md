@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: [Array] inserting items into an array
+title: Array-Inserting items into an array
 date: 2021-04-01 23:14:42 +0900
 tags: [algorithm, data-structure]
 ---
