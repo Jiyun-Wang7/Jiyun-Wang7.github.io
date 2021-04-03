@@ -6,11 +6,13 @@ date: 2021-04-01 23:14:42 +0900
 tags: [algorithm, data-structure]
 ---
 
-참고 : [https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3243/](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3243/)
-
+## 참고
+---
+[https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3243/](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3243/)
+<br><br>
 
 ## 문제풀기
-
+---
 
 ### 1. Max Consecutive Ones (연속된 1의 최대 갯수)
 ![Max Consecutive Ones)](/assets/array/1.png)
@@ -116,8 +118,9 @@ def sortedSquares(nums: List[int]) -> List[int]:
     return sorted([num**2 for num in nums]) //제곱을 할 때, math.pow(값, 지수) 이렇게 쓸 수도 있음.
 
 ```
+<br><br>
 
-### 관련 포스트
+## 관련 포스트
 ---
 
 - [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)

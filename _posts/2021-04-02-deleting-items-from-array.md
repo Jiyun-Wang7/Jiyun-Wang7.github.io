@@ -6,11 +6,13 @@ date: 2021-04-02 22:14:42 +0900
 tags: [algorithm, data-structure]
 ---
 
-참고 : [https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3246/](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3246/)
-
+## 참고
+---
+[https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3246/](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3246/)
+<br><br>
 
 ## 문제풀기
-
+---
 
 ### 1. Remove Element (특정 값들을 배열에서 제거)
 ![Remove Element)](/assets/array/6.png)
@@ -90,7 +92,7 @@ def removeElement(self, nums: List[int], val: int) -> int:
 ```
 
 
-### 관련 포스트
+## 관련 포스트
 ---
 - [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
 - [Array - Inserting items into an array](https://jiyun-wang7.github.io/2021-04-01/array-inserting-items-into-an-array)
