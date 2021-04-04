@@ -53,7 +53,53 @@ if __name__ == '__main__':
 
 ## 문제풀기
 ---
-작성중
+### 1. Check If N and Its Double Exist (특정 값의 곱하기 2한 값이 배열안에 있는지 확인)
+![Check If N and Its Double Exist)](/assets/array/8.png)
+
+```python
+
+def checkIfExist(arr: List[int]) -> bool:
+    """
+    반복문 돌면서 전체 비교 (1차 작업)
+    Runtime: 68 ms
+    Memory Usage: 14.4 MB
+    """
+    if not arr:
+        return False
+
+    for i in range(0, len(arr)):
+        item_divided_half = arr[i] / 2
+
+        for j in range(0, len(arr)):
+            if j == i:
+                continue
+
+            if item_divided_half == arr[j]:
+                return True
+
+    return False
+
+
+def checkIfExist(arr: List[int]) -> bool:
+    """
+    반복문 돌면서 값을 set에 저장해두고, set을 기준으로 비교. (2차 작업)
+    Runtime: 48 ms
+    Memory Usage: 14.4 MB
+    """
+    if not arr:
+        return False
+
+    doubles = set()
+
+    for i in range(0, len(arr)):
+        if arr[i] * 2 in doubles or arr[i] / 2 in doubles:
+            return True
+
+        doubles.add(arr[i])
+
+    return False
+
+```
 
 
 ## 관련 포스트
