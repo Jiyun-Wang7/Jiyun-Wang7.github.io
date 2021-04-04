@@ -1,8 +1,8 @@
 ---
 author: Jiyun Wang
 layout: post
-title: binary search
-date: 2021-03-30 00:14:42 +0900
+title: binary search (문제풀이 정리 필요)
+date: 2021-03-30 12:14:42 +0900
 tags: [algorithm, data-structure]
 ---
 

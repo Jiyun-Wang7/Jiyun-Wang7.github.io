@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: Array - Searching for items in an array (작성중)
-date: 2021-04-04 00:47:00 +0900
+date: 2021-04-04 12:47:00 +0900
 tags: [algorithm, data-structure]
 ---
 
@@ -38,6 +38,15 @@ if __name__ == '__main__':
     print(is_exists)
 
 ```
+
+## 이진 검색 (Binary Search)
+---
+- 배열의 요소가 정렬 된 순서이면 이진 검색을 사용할 수 있다. 이진 검색은 배열의 중간 요소를 반복적으로보고 찾고있는 요소가 왼쪽인지 오른쪽인지 결정한다. 
+- 이 작업을 수행 할 때마다 검색해야하는 요소 수를 절반으로 줄일 수 있으므로 이진 검색이 선형 검색보다 훨씬 빠르다는 장점이 있다. 
+- 이진 검색의 단점은 데이터가 정렬 된 경우에만 작동한다. 단일 검색 만 수행해야하는 경우 선형 검색보다 정렬하는 데 더 오래 걸리므로 선형 검색 만 수행하는 것이 더 빠릅니다. 많은 검색을 수행하려는 경우 반복 검색에 이진 검색을 사용할 수 있도록 데이터를 먼저 정렬하는 것이 좋다.
+
+### 이전에 정리해둔 이진검색 (아직 문제풀이가 업데이트 되어있지 않지만, 구현은 해둠.)
+- [https://jiyun-wang7.github.io/2021-03-29/binary-search](https://jiyun-wang7.github.io/2021-03-29/binary-search)
 
 <br><br>
 
