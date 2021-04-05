@@ -102,6 +102,76 @@ def checkIfExist(arr: List[int]) -> bool:
 ```
 
 
+### 2. Valid Mountain Array (각 아이템의 흐름이 산 모양인지 확인)
+![Valid Mountain Array)](/assets/array/9.png)
+
+```python
+
+def validMountainArray(arr: List[int]) -> bool:
+    """
+    1차 작업물
+    Runtime: 204 ms
+    Memory Usage: 15.6 MB
+    """
+    if not arr or len(arr) < 3:
+        return False
+
+    # 올라간 적이 있다.
+    is_up = False
+
+    # 내려간 적이 있다.
+    is_down = False
+
+    for i in range(1, len(arr)):
+        if arr[i - 1] == arr[i]:
+            return False
+
+        elif arr[i - 1] < arr[i]:
+            if is_down:
+                # 내려갔었다가 다시 올라가는 경우
+                return False
+            is_up = True
+
+        elif arr[i - 1] > arr[i]:
+            is_down = True
+
+    if is_up and is_down:
+        return True
+
+    return False
+
+
+def validMountainArray(arr: List[int]) -> bool:
+    """
+    2차 작업물(개선)
+    Runtime: 204 ms
+    Memory Usage: 15.4 MB
+    """
+    if not arr or len(arr) < 3 or (arr[0] >= arr[1]):
+        return False
+
+    # 올라간 적이 있다.
+    is_up = True
+
+    for i in range(1, len(arr)):
+        if arr[i - 1] == arr[i]:
+            return False
+
+        if is_up:
+            # 올라가는 상황에서 내려가야하는 경우
+            if arr[i - 1] > arr[i]:
+                is_up = False
+
+        if not is_up:
+            # 올라가는 상황이 끝났는데, 올라간다.
+            if arr[i - 1] < arr[i]:
+                return False
+
+    return not is_up # 결국 내려가야 하기 때문에.
+
+```
+
+
 ## 관련 포스트
 ---
 - [Array - Introduction](https://jiyun-wang7.github.io/2021-03-31/array-introduction)
