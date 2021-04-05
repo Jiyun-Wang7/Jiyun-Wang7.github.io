@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: Array - Searching for items in an array (작성중)
+title: Array - Searching for items in an array
 date: 2021-04-04 12:47:00 +0900
 tags: [algorithm, data-structure]
 ---
